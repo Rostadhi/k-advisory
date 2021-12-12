@@ -1,11 +1,11 @@
 import React from 'react';
 import Image from 'next/image'
 
-export default function FeatureSection() {
+export default function ProjectSection() {
     return (
-        <section id="features" className="py-28 bg-gray-50">
+        <section id="project" className="py-28 bg-gray-50">
             <div className="container mx-auto">
-                <h2 className="text-black text-4xl font-semibold text-center">Our Features</h2>
+                <h2 className="text-black text-4xl font-semibold text-center">Our Key Features</h2>
                 <div className="mt-20 grid grid-flow-row grid-cols-2 gap-x-28 gap-y-10">
                     <div className="text-center">
                         <Image src="/vercel.svg" width="120" height="120" />

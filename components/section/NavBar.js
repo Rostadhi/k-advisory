@@ -32,6 +32,7 @@ export default function NavBar() {
                         <NavItem href="#about">About</NavItem>
                         <NavItem href="#features">Features</NavItem>
                         <NavItem href="#products">Products</NavItem>
+                        <NavItem href="#project">Project</NavItem>
                         <NavItem href="#contact">Contact</NavItem>
                     </ul>
                 </nav>
