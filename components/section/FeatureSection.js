@@ -8,12 +8,12 @@ export default function FeatureSection() {
                 <h2 className="text-black text-4xl font-semibold text-center">Our Expertise</h2>
                 <div className="mt-40 grid grid-flow-row grid-cols-2 gap-x-28 gap-y-10">
                     <div className="text-center">
-                        <Image src="/industry.png" width="2000" height="500" />
+                        <Image src="/industry.png" width="2000" height="1000" />
                         <h4 className="text-black text-center text-lg font-semibold pb-8">Industry Expertise</h4>
                         <p className="text-black text-center text-base font-normal tracking-wider leading-7">K-Advisory Consulting’s Industry Solutions</p>
                     </div>
                     <div className="text-center">
-                        <Image src="/LOGO K-Advisory 3.svg" width="120" height="120" />
+                        <Image src="/service.png" width="2000" height="1000" />
                         <h4 className="text-black text-center text-lg font-semibold pb-8">Service Line Expertise</h4>
                         <p className="text-black text-center text-base font-normal tracking-wider leading-7">K-Advisory Consulting’s Service Line</p>
                     </div>

@@ -12,7 +12,7 @@ export default function FoodItem() {
                     <a href="https://www.k-advisory.co.id/" className="border border-gray-300 text-black hover:border-blue-700 hover:text-white hover:bg-blue-700 rounded-md transition p-3 font-semibold text-lg inline-block">Contact Us</a>
                 </div>
             </div>
-            <Image src="/food.png" width="300" height="300" />
+            <Image src="/food.png" width="400" height="300" />
         </div>
     );
 };
