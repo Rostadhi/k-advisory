@@ -10,8 +10,11 @@ export default function ContactSection() {
             <h2 className="text-white text-4xl font-semibold text-center">Contact Us</h2>
             <div className="container mx-auto flex justify-between items-start py-14">
                 <div className="w-5/12 items-start">
-                    <h2 className="text-white text-3xl font-bold py-6 tracking-wide">PT. Multicipta Solusi Advisory</h2>
-                    <p className="text-white text-xl font-normal leading-loose">For the latest information you can follow our social media.</p>
+                    <h2 className="text-white text-4xl font-bold py-6 tracking-wide">PT. Multicipta Solusi Advisory</h2>
+                    <p className="text-white text-xl font-normal leading-loose">SCBD - Equity Tower 49th FI</p>
+                    <p className="text-white text-xl font-normal leading-loose">South Jakarta, Greater Area of Jakarta</p>
+                    <p className="text-white text-xl font-normal leading-loose">Indonesia</p>
+                    <p className="text-white text-xl font-normal leading-loose">Phone : +62 21 29651170</p>
                     <div className="flex pt-10">
                         <ArrowCircleRightIcon className="h-10 w-10 text-white" />
                         <ArrowCircleLeftIcon className="h-10 w-10 text-white" />
