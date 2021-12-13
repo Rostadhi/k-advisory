@@ -1,8 +1,13 @@
 import React from 'react';
+import {ReactDOM} from 'react-dom';
 import Carousel from "react-multi-carousel";
 import { ArrowCircleRightIcon, ArrowCircleLeftIcon } from '@heroicons/react/solid';
 
 import ProductItem from '../widget/ProductItem';
+import ProductItem1 from '/Users/rostadhiakbar/Documents/Website/k-advisory/k-advisory/components/widget/ProductItem1.js';
+import ProductItem2 from '/Users/rostadhiakbar/Documents/Website/k-advisory/k-advisory/components/widget/ProductItem2.js';
+import ProductItem3 from '/Users/rostadhiakbar/Documents/Website/k-advisory/k-advisory/components/widget/ProductItem3.js';
+
 import "react-multi-carousel/lib/styles.css";
 
 const responsive = {
@@ -32,7 +37,7 @@ export default function ProductSection() {
                 aria-label="Go to previous slide"
                 className="absolute left-0 mx-[108px]"
             >
-                <ArrowCircleLeftIcon className="h-12 w-12 text-green-700" />
+                <ArrowCircleLeftIcon className="h-12 w-12 text-blue-700" />
             </button>
         );
     }
@@ -44,14 +49,14 @@ export default function ProductSection() {
                 aria-label="Go to next slide"
                 className="absolute right-0 mx-[108px]"
             >
-                <ArrowCircleRightIcon className="h-12 w-12 text-green-700" />
+                <ArrowCircleRightIcon className="h-12 w-12 text-blue-700" />
             </button>
         );
     }
 
     return (
         <section id="products" className="pt-28 pb-12 bg-gray-50 relative">
-            <h2 className="text-black text-4xl font-semibold text-center">Our Product</h2>
+            <h2 className="text-black text-4xl font-semibold text-center">Our Industry Expertise</h2>
             <Carousel
                 showDots={true}
                 responsive={responsive}
@@ -63,9 +68,9 @@ export default function ProductSection() {
                 customRightArrow={<CustomRightArrow />}
             >
                 <ProductItem />
-                <ProductItem />
-                <ProductItem />
-                <ProductItem />
+                <ProductItem1 />
+                <ProductItem2 />
+                <ProductItem3 />
             </Carousel>
         </section>
     );
