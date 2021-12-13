@@ -4,10 +4,9 @@ import Carousel from "react-multi-carousel";
 import { ArrowCircleRightIcon, ArrowCircleLeftIcon } from '@heroicons/react/solid';
 
 import ProductItem from '../widget/ProductItem';
-import ProductItem1 from '/Users/rostadhiakbar/Documents/Website/k-advisory/k-advisory/components/widget/ProductItem1.js';
-import ProductItem2 from '/Users/rostadhiakbar/Documents/Website/k-advisory/k-advisory/components/widget/ProductItem2.js';
-import ProductItem3 from '/Users/rostadhiakbar/Documents/Website/k-advisory/k-advisory/components/widget/ProductItem3.js';
-
+import MiningItem from '../widget/MiningItem';
+import AviationItem from '../widget/AviationItem';
+import FoodItem from '../widget/FoodItem';
 import "react-multi-carousel/lib/styles.css";
 
 const responsive = {
@@ -68,9 +67,9 @@ export default function ProductSection() {
                 customRightArrow={<CustomRightArrow />}
             >
                 <ProductItem />
-                <ProductItem />
-                <ProductItem />
-                <ProductItem />
+                <MiningItem />
+                <AviationItem />
+                <FoodItem />
             </Carousel>
         </section>
     );
