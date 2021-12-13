@@ -68,9 +68,9 @@ export default function ProductSection() {
                 customRightArrow={<CustomRightArrow />}
             >
                 <ProductItem />
-                <ProductItem1 />
-                <ProductItem2 />
-                <ProductItem3 />
+                <ProductItem />
+                <ProductItem />
+                <ProductItem />
             </Carousel>
         </section>
     );
