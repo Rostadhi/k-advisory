@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { GrFacebook, GrMail, GrInstagram } from "react-icons/gr";
 import { ArrowCircleRightIcon, ArrowCircleLeftIcon, ArrowCircleDownIcon } from '@heroicons/react/solid';
 
 import Field from '../widget/Field';
@@ -16,9 +17,9 @@ export default function ContactSection() {
                     <p className="text-white text-xl font-normal leading-loose">Indonesia</p>
                     <p className="text-white text-xl font-normal leading-loose">Phone : +62 21 29651170</p>
                     <div className="flex pt-10">
-                        <ArrowCircleRightIcon className="h-10 w-10 text-white" />
-                        <ArrowCircleLeftIcon className="h-10 w-10 text-white" />
-                        <ArrowCircleDownIcon className="h-10 w-10 text-white" />
+                        <GrFacebook className="w-8 h-8  ml-3 border-lightgray-3 bg-lightgray-2 justify-center items-center text-blue flex hover:bg-dominant hover:border-transparent hover:text-white" />
+                        <GrMail className="w-8 h-8  ml-3 border-lightgray-3 bg-lightgray-2 justify-center items-center text-blue flex hover:bg-dominant hover:border-transparent hover:text-white" />
+                        <GrInstagram className="w-8 h-8  ml-3 border-lightgray-3 bg-lightgray-2 justify-center items-center text-blue flex hover:bg-dominant hover:border-transparent hover:text-white" />
                     </div>
                 </div>
                 <div className="w-6/12">

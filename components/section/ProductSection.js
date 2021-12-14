@@ -54,7 +54,7 @@ export default function ProductSection() {
     }
 
     return (
-        <section id="products" className="pt-28 pb-12 bg-gray-50 relative">
+        <section id="products" className="pt-28 pb-12 bg-blue-50 relative">
             <h2 className="text-black text-4xl font-semibold text-center">Our Industry Expertise</h2>
             <Carousel
                 showDots={true}

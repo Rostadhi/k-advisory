@@ -30,9 +30,9 @@ export default function NavBar() {
                 <nav>
                     <ul className="flex justify-end space-x-10">
                         <NavItem href="#about">About</NavItem>
-                        <NavItem href="#features">Features</NavItem>
                         <NavItem href="#products">Expertise</NavItem>
-                        <NavItem href="#project">Service</NavItem>
+                        <NavItem href="#service">Service</NavItem>
+                        <NavItem href="#credential">Credential</NavItem>
                         <NavItem href="#contact">Contact</NavItem>
                     </ul>
                 </nav>
