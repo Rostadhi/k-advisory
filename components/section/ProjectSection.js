@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image'
+import Link from 'next/link';
 
 export default function ProjectSection() {
     return (
@@ -10,7 +11,13 @@ export default function ProjectSection() {
                     <div className="text-center">
                         <Image src="/coconut.png" width="120" height="120" />
                         <h4 className="text-black text-center text-lg font-semibold pb-8">Transactional Service</h4>
-                        <p className="text-black text-left text-base font-normal tracking-wider leading-7">Integrity means telling the truth, keeping our word and treating others with fairness and respect. Integrity is one of our most cherished assets. It must not be compromised.</p>
+                        <Link href="/www.ojk.com">
+                            <a
+                                className="border border-black text-blue hover:text-blue-700 hover:bg-white rounded-md transition py-2 px-5 mt-5 font-semibold text-lg inline-block"
+                            >
+                            Click For Details
+                            </a>
+                        </Link>
                     </div>
                     <div className="text-center">
                         <Image src="/coconut.png" width="120" height="120" />
