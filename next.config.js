@@ -2,7 +2,7 @@ module.exports = {
   reactStrictMode: true,
   images: {
     domains: [
-      'universalcoco.com'
+      'k-advisory.co.id'
     ],
   },
 }
