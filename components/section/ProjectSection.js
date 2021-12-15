@@ -43,9 +43,9 @@ export default function ProjectSection() {
                 <div className="absolute top-0 left-0 right-0 h-full bg-sky-900 bg-opacity-0 group-hover:bg-opacity-70 transition-all duration-300"></div>
                 <div className="absolute top-0 left-0 right-0 h-full opacity-0 group-hover:opacity-100 transition-all duration-1000 flex flex-col justify-center items-center">
                   <span className="catamaran font-bold text-white text-lg lg:text-xl text-center p-2">
-                    Luxury Buildings
+                    Corporate Finance
                   </span>
-                  <span className="zilla-slab text-dominant">Construction</span>
+                  <span className="zilla-slab text-dominant">Pre IPO</span>
                 </div>
               </div>
               <div className="h-44 md:h-96 lg:h-52 xl:h-64 2xl:h-96 bg-black-2 relative group">
@@ -60,7 +60,24 @@ export default function ProjectSection() {
                 <div className="absolute top-0 left-0 right-0 h-full bg-sky-900 bg-opacity-0 group-hover:bg-opacity-70 transition-all duration-300"></div>
                 <div className="absolute top-0 left-0 right-0 h-full opacity-0 group-hover:opacity-100 transition-all duration-1000 flex flex-col justify-center items-center">
                   <span className="catamaran font-bold text-white text-lg lg:text-xl text-center p-2">
-                    Luxury Buildings
+                    Capital Budgeting
+                  </span>
+                  <span className="zilla-slab text-dominant">Strategic Planning</span>
+                </div>
+              </div>
+              <div className="h-44 md:h-96 lg:h-52 xl:h-64 2xl:h-96 bg-black-2 relative group">
+                <div className="block h-full w-full relative">
+                  <Image
+                    src="/4.jpg"
+                    layout="fill"
+                    objectFit="cover"
+                    objectPosition="center"
+                  />
+                </div>
+                <div className="absolute top-0 left-0 right-0 h-full bg-sky-900 bg-opacity-0 group-hover:bg-opacity-70 transition-all duration-300"></div>
+                <div className="absolute top-0 left-0 right-0 h-full opacity-0 group-hover:opacity-100 transition-all duration-1000 flex flex-col justify-center items-center">
+                  <span className="catamaran font-bold text-white text-lg lg:text-xl text-center p-2">
+                    Business Process Solution
                   </span>
                   <span className="zilla-slab text-dominant">Construction</span>
                 </div>
@@ -77,26 +94,9 @@ export default function ProjectSection() {
                 <div className="absolute top-0 left-0 right-0 h-full bg-sky-900 bg-opacity-0 group-hover:bg-opacity-70 transition-all duration-300"></div>
                 <div className="absolute top-0 left-0 right-0 h-full opacity-0 group-hover:opacity-100 transition-all duration-1000 flex flex-col justify-center items-center">
                   <span className="catamaran font-bold text-white text-lg lg:text-xl text-center p-2">
-                    Luxury Buildings
+                    Management Exposure
                   </span>
-                  <span className="zilla-slab text-dominant">Construction</span>
-                </div>
-              </div>
-              <div className="h-44 md:h-96 lg:h-52 xl:h-64 2xl:h-96 bg-black-2 relative group">
-                <div className="block h-full w-full relative">
-                  <Image
-                    src="/4.jpg"
-                    layout="fill"
-                    objectFit="cover"
-                    objectPosition="center"
-                  />
-                </div>
-                <div className="absolute top-0 left-0 right-0 h-full bg-sky-900 bg-opacity-0 group-hover:bg-opacity-70 transition-all duration-300"></div>
-                <div className="absolute top-0 left-0 right-0 h-full opacity-0 group-hover:opacity-100 transition-all duration-1000 flex flex-col justify-center items-center">
-                  <span className="catamaran font-bold text-white text-lg lg:text-xl text-center p-2">
-                    Luxury Buildings
-                  </span>
-                  <span className="zilla-slab text-dominant">Construction</span>
+                  <span className="zilla-slab text-dominant">Feasibility Study</span>
                 </div>
               </div>
             </div>
