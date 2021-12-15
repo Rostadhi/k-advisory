@@ -5,66 +5,103 @@ import Link from 'next/link';
 export default function ProjectSection() {
     return (
         <section id="service" className="py-28 bg-gray-50">
-            <div className="container mx-auto">
-                <h2 className="text-black text-4xl font-semibold text-center">Our Service Line Expertise</h2>
-                <div className="mt-20 grid grid-flow-row grid-cols-2 gap-x-28 gap-y-10">
-                    <div className="text-center">
-                        <Image src="/coconut.png" width="120" height="120" />
-                        <h4 className="text-black text-center text-lg font-semibold pb-8">Transactional Service</h4>
-                        <Link href="/www.ojk.com">
-                            <a
-                                className="border border-black text-blue hover:text-blue-700 hover:bg-white rounded-md transition py-2 px-5 mt-5 font-semibold text-lg inline-block"
-                            >
-                            Click For Details
-                            </a>
-                        </Link>
-                    </div>
-                    <div className="text-center">
-                        <Image src="/coconut.png" width="120" height="120" />
-                        <h4 className="text-black text-center text-lg font-semibold pb-8">Corporate Finance</h4>
-                        <Link href="/www.ojk.com">
-                            <a
-                                className="border border-black text-blue hover:text-blue-700 hover:bg-white rounded-md transition py-2 px-5 mt-5 font-semibold text-lg inline-block"
-                            >
-                            Click For Details
-                            </a>
-                        </Link>
-                    </div>
-                    <div className="text-center">
-                        <Image src="/coconut.png" width="120" height="120" />
-                        <h4 className="text-black text-center text-lg font-semibold pb-8">Capital Budgeting</h4>
-                        <Link href="/www.ojk.com">
-                            <a
-                                className="border border-black text-blue hover:text-blue-700 hover:bg-white rounded-md transition py-2 px-5 mt-5 font-semibold text-lg inline-block"
-                            >
-                            Click For Details
-                            </a>
-                        </Link>
-                    </div>
-                    <div className="text-center">
-                        <Image src="/coconut.png" width="120" height="120" />
-                        <h4 className="text-black text-center text-lg font-semibold pb-8">Business Process Solution</h4>
-                        <Link href="/www.ojk.com">
-                            <a
-                                className="border border-black text-blue hover:text-blue-700 hover:bg-white rounded-md transition py-2 px-5 mt-5 font-semibold text-lg inline-block"
-                            >
-                            Click For Details
-                            </a>
-                        </Link>
-                    </div>
-                    <div className="text-center">
-                        <Image src="/coconut.png" width="120" height="120" />
-                        <h4 className="text-black text-center text-lg font-semibold pb-8">Management Exposure</h4>
-                        <Link href="/www.ojk.com">
-                            <a
-                                className="border border-black text-blue hover:text-blue-700 hover:bg-white rounded-md transition py-2 px-5 mt-5 font-semibold text-lg inline-block"
-                            >
-                            Click For Details
-                            </a>
-                        </Link>
-                    </div>
+            
+            <div className="bg-grey-50 relative">
+          <div id="about" className="h-20 absolute bottom-0"></div>
+          <div className="w-full px-5 md:px-0 md:w-5/6 lg:w-4/6 xl:w-4/6 py-8 mx-auto">
+            <h3 className="text-2xl lg:text-4xl staatliches text-black my-5 mb-8 text-center">
+              Service Line Expertise
+              <div className="w-20 h-1 bg-dominant mt-2"></div>
+            </h3>
+            <div className="grid grid-flow-row grid-cols-2 lg:grid-cols-5 gap-5 my-20">
+              <div className="h-44 md:h-96 lg:h-52 xl:h-64 2xl:h-96 bg-black-2 relative group">
+                <div className="block h-full w-full relative">
+                  <Image
+                    src="/1.jpg"
+                    layout="fill"
+                    objectFit="cover"
+                    objectPosition="center"
+                  />
                 </div>
+                <div className="absolute top-0 left-0 right-0 h-full bg-sky-900 bg-opacity-0 group-hover:bg-opacity-70 transition-all duration-300"></div>
+                <div className="absolute top-0 left-0 right-0 h-full opacity-0 group-hover:opacity-100 transition-all duration-1000 flex flex-col justify-center items-center">
+                  <span className="catamaran font-bold text-white text-lg lg:text-xl text-center p-2">
+                    Luxury Buildings
+                  </span>
+                  <span className="zilla-slab text-dominant">Construction</span>
+                </div>
+              </div>
+              <div className="h-44 md:h-96 lg:h-52 xl:h-64 2xl:h-96 bg-black-2 relative group">
+                <div className="block h-full w-full relative">
+                  <Image
+                    src="/2.jpg"
+                    layout="fill"
+                    objectFit="cover"
+                    objectPosition="center"
+                  />
+                </div>
+                <div className="absolute top-0 left-0 right-0 h-full bg-sky-900 bg-opacity-0 group-hover:bg-opacity-70 transition-all duration-300"></div>
+                <div className="absolute top-0 left-0 right-0 h-full opacity-0 group-hover:opacity-100 transition-all duration-1000 flex flex-col justify-center items-center">
+                  <span className="catamaran font-bold text-white text-lg lg:text-xl text-center p-2">
+                    Luxury Buildings
+                  </span>
+                  <span className="zilla-slab text-dominant">Construction</span>
+                </div>
+              </div>
+              <div className="h-44 md:h-96 lg:h-52 xl:h-64 2xl:h-96 bg-black-2 relative group">
+                <div className="block h-full w-full relative">
+                  <Image
+                    src="/3.jpg"
+                    layout="fill"
+                    objectFit="cover"
+                    objectPosition="center"
+                  />
+                </div>
+                <div className="absolute top-0 left-0 right-0 h-full bg-sky-900 bg-opacity-0 group-hover:bg-opacity-70 transition-all duration-300"></div>
+                <div className="absolute top-0 left-0 right-0 h-full opacity-0 group-hover:opacity-100 transition-all duration-1000 flex flex-col justify-center items-center">
+                  <span className="catamaran font-bold text-white text-lg lg:text-xl text-center p-2">
+                    Luxury Buildings
+                  </span>
+                  <span className="zilla-slab text-dominant">Construction</span>
+                </div>
+              </div>
+              <div className="h-44 md:h-96 lg:h-52 xl:h-64 2xl:h-96 bg-black-2 relative group">
+                <div className="block h-full w-full relative">
+                  <Image
+                    src="/4.jpg"
+                    layout="fill"
+                    objectFit="cover"
+                    objectPosition="center"
+                  />
+                </div>
+                <div className="absolute top-0 left-0 right-0 h-full bg-sky-900 bg-opacity-0 group-hover:bg-opacity-70 transition-all duration-300"></div>
+                <div className="absolute top-0 left-0 right-0 h-full opacity-0 group-hover:opacity-100 transition-all duration-1000 flex flex-col justify-center items-center">
+                  <span className="catamaran font-bold text-white text-lg lg:text-xl text-center p-2">
+                    Luxury Buildings
+                  </span>
+                  <span className="zilla-slab text-dominant">Construction</span>
+                </div>
+              </div>
+              <div className="h-44 md:h-96 lg:h-52 xl:h-64 2xl:h-96 bg-black-2 relative group">
+                <div className="block h-full w-full relative">
+                  <Image
+                    src="/4.jpg"
+                    layout="fill"
+                    objectFit="cover"
+                    objectPosition="center"
+                  />
+                </div>
+                <div className="absolute top-0 left-0 right-0 h-full bg-sky-900 bg-opacity-0 group-hover:bg-opacity-70 transition-all duration-300"></div>
+                <div className="absolute top-0 left-0 right-0 h-full opacity-0 group-hover:opacity-100 transition-all duration-1000 flex flex-col justify-center items-center">
+                  <span className="catamaran font-bold text-white text-lg lg:text-xl text-center p-2">
+                    Luxury Buildings
+                  </span>
+                  <span className="zilla-slab text-dominant">Construction</span>
+                </div>
+              </div>
             </div>
+          </div>
+        </div>
         </section>
     )
 }
