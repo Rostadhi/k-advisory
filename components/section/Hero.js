@@ -3,10 +3,10 @@ import Link from 'next/link';
 
 export default function Hero() {
   return (
-    <section className="relative">
+    <section className="relative bg-black">
       <img src="/Group 92.jpg" className="object-cover w-full h-screen" />
-      <div className="container mx-auto">
-        <div className="absolute top-0">
+      <div className="container mx-auto ">
+        <div className="absolute top-0  ">
           <h3 className="text-white text-3xl font-semibold pt-56">
             A Boutique Of Financial Advisor
           </h3>

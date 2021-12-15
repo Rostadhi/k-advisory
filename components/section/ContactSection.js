@@ -7,7 +7,7 @@ import Field from '../widget/Field';
 
 export default function ContactSection() {
     return (
-        <section id="contact" className="pt-28 pb-14 bg-sky-900">
+        <section id="contact" className="pt-28 pb-14 bg-sky-900 border-t-8">
             <h2 className="text-white text-4xl font-semibold text-center">Contact Us</h2>
             <div className="container mx-auto flex justify-between items-start py-14">
                 <div className="w-5/12 items-start">
