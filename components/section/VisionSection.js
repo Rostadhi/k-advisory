@@ -19,7 +19,7 @@ export default function VisionSection() {
                     </div>
                 <div className="flex-1 ml-8">
                   <h4 className="text-black font-bold catamaran text-lg lg:text-xl">
-                    Construction Consultant
+                    PT Garuda Indonesia, Tbk
                   </h4>
                   <p className="text-black-2 mt-3">
                     Vestibulum eu libero volutpat, portas quam, tempus sem.
@@ -33,7 +33,7 @@ export default function VisionSection() {
                 </div>
                 <div className="flex-1 ml-8">
                   <h4 className="text-black font-bold catamaran text-lg lg:text-xl">
-                    Architectural Design
+                    PT Sriwijaya Air
                   </h4>
                   <p className="text-black-2 mt-3">
                     Vestibulum eu libero volutpat, portas quam, tempus sem.
@@ -47,7 +47,7 @@ export default function VisionSection() {
                 </div>
                 <div className="flex-1 ml-8">
                   <h4 className="text-black font-bold catamaran text-lg lg:text-xl">
-                    Electrical System
+                    PT Nam Air
                   </h4>
                   <p className="text-black-2 mt-3">
                     Vestibulum eu libero volutpat, portas quam, tempus sem.
@@ -61,7 +61,7 @@ export default function VisionSection() {
                 </div>
                 <div className="flex-1 ml-8">
                   <h4 className="text-black font-bold catamaran text-lg lg:text-xl">
-                    General Contracting
+                    PT Citilink Indonesia
                   </h4>
                   <p className="text-black-2 mt-3">
                     Vestibulum eu libero volutpat, portas quam, tempus sem.
@@ -75,7 +75,7 @@ export default function VisionSection() {
                 </div>
                 <div className="flex-1 ml-8">
                   <h4 className="text-black font-bold catamaran text-lg lg:text-xl">
-                    Reconstruction Services
+                    PT Aerowisata Group
                   </h4>
                   <p className="text-black-2 mt-3">
                     Vestibulum eu libero volutpat, portas quam, tempus sem.
@@ -89,7 +89,49 @@ export default function VisionSection() {
                 </div>
                 <div className="flex-1 ml-8">
                   <h4 className="text-black font-bold catamaran text-lg lg:text-xl">
-                    Plumbilg Services
+                    PT Aerofood Indonesia
+                  </h4>
+                  <p className="text-black-2 mt-3">
+                    Vestibulum eu libero volutpat, portas quam, tempus sem.
+                    Donec sodales quam id lorem lobortis, vitae interdum nisl.
+                  </p>
+                </div>
+              </div>
+              <div className="group flex">
+                <div className="bg-dominant w-10 h-10 lg:w-16 lg:h-16 rounded-full flex justify-center items-center text-lg lg:text-2xl text-white border-2 border-transparent group-hover:bg-transparent group-hover:text-dominant group-hover:border-dominant">
+                  <FaHouzz  />
+                </div>
+                <div className="flex-1 ml-8">
+                  <h4 className="text-black font-bold catamaran text-lg lg:text-xl">
+                    PT Waskita Toll Road
+                  </h4>
+                  <p className="text-black-2 mt-3">
+                    Vestibulum eu libero volutpat, portas quam, tempus sem.
+                    Donec sodales quam id lorem lobortis, vitae interdum nisl.
+                  </p>
+                </div>
+              </div>
+              <div className="group flex">
+                <div className="bg-dominant w-10 h-10 lg:w-16 lg:h-16 rounded-full flex justify-center items-center text-lg lg:text-2xl text-white border-2 border-transparent group-hover:bg-transparent group-hover:text-dominant group-hover:border-dominant">
+                  <FaHouzz  />
+                </div>
+                <div className="flex-1 ml-8">
+                  <h4 className="text-black font-bold catamaran text-lg lg:text-xl">
+                    PT Cardig Aero Services, Tbk
+                  </h4>
+                  <p className="text-black-2 mt-3">
+                    Vestibulum eu libero volutpat, portas quam, tempus sem.
+                    Donec sodales quam id lorem lobortis, vitae interdum nisl.
+                  </p>
+                </div>
+              </div>
+              <div className="group flex">
+                <div className="bg-dominant w-10 h-10 lg:w-16 lg:h-16 rounded-full flex justify-center items-center text-lg lg:text-2xl text-white border-2 border-transparent group-hover:bg-transparent group-hover:text-dominant group-hover:border-dominant">
+                  <FaHouzz  />
+                </div>
+                <div className="flex-1 ml-8">
+                  <h4 className="text-black font-bold catamaran text-lg lg:text-xl">
+                    PT NAM Training Center
                   </h4>
                   <p className="text-black-2 mt-3">
                     Vestibulum eu libero volutpat, portas quam, tempus sem.
@@ -112,7 +154,7 @@ export default function VisionSection() {
                     </div>
                 <div className="flex-1 ml-8">
                   <h4 className="text-black font-bold catamaran text-lg lg:text-xl">
-                    Construction Consultant
+                    PT Solusi Bangun Indonesia, Tbk
                   </h4>
                   <p className="text-black-2 mt-3">
                     Vestibulum eu libero volutpat, portas quam, tempus sem.
@@ -126,7 +168,7 @@ export default function VisionSection() {
                 </div>
                 <div className="flex-1 ml-8">
                   <h4 className="text-black font-bold catamaran text-lg lg:text-xl">
-                    Architectural Design
+                    PT Dana Brata Luhur, Tbk
                   </h4>
                   <p className="text-black-2 mt-3">
                     Vestibulum eu libero volutpat, portas quam, tempus sem.
@@ -140,7 +182,7 @@ export default function VisionSection() {
                 </div>
                 <div className="flex-1 ml-8">
                   <h4 className="text-black font-bold catamaran text-lg lg:text-xl">
-                    Electrical System
+                    PT Angkasa Pura I (Persero)
                   </h4>
                   <p className="text-black-2 mt-3">
                     Vestibulum eu libero volutpat, portas quam, tempus sem.
@@ -154,7 +196,7 @@ export default function VisionSection() {
                 </div>
                 <div className="flex-1 ml-8">
                   <h4 className="text-black font-bold catamaran text-lg lg:text-xl">
-                    General Contracting
+                    PT Angkasa Pura Properti
                   </h4>
                   <p className="text-black-2 mt-3">
                     Vestibulum eu libero volutpat, portas quam, tempus sem.
@@ -168,7 +210,7 @@ export default function VisionSection() {
                 </div>
                 <div className="flex-1 ml-8">
                   <h4 className="text-black font-bold catamaran text-lg lg:text-xl">
-                    Reconstruction Services
+                    PT Angkasa Pura Hotel
                   </h4>
                   <p className="text-black-2 mt-3">
                     Vestibulum eu libero volutpat, portas quam, tempus sem.
@@ -182,7 +224,7 @@ export default function VisionSection() {
                 </div>
                 <div className="flex-1 ml-8">
                   <h4 className="text-black font-bold catamaran text-lg lg:text-xl">
-                    Plumbilg Services
+                    PlasticPay
                   </h4>
                   <p className="text-black-2 mt-3">
                     Vestibulum eu libero volutpat, portas quam, tempus sem.
